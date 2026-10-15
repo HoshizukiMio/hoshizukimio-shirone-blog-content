@@ -1,0 +1,28 @@
+name: Deploy content to Vercel
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'config/**'
+      - 'content/**'
+      - 'data/**'
+      - 'assets/**'
+      - 'public/**'
+      - 'shirone.content.json'
+      - '.github/workflows/trigger-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: deploy-content
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel production build
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          test -n "$VERCEL_DEPLOY_HOOK"
+          curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_DEPLOY_HOOK" > /dev/null

@@ -1,0 +1,10 @@
+# Personal overrides; unspecified options follow Shirone defaults.
+enable: true
+provider: meting
+meting:
+  server: netease
+  type: playlist
+  id: "13606034252"
+  api: https://meting-api.hoshizukimio.com/api?server=:server&type=:type&id=:id&auth=:auth&r=:r
+  preload: metadata
+

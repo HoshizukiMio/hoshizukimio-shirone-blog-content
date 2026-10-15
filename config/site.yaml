@@ -1,0 +1,53 @@
+# Personal overrides; unspecified options follow Shirone defaults.
+site: https://blog.hoshizukimio.com/
+base: /
+title: 星月澪の幻想笔记
+subtitle: 记录技术、日常与灵感
+lang: zh_CN
+timeZone: Asia/Shanghai
+themeColor:
+  hue: 200
+  fixed: false
+wallpaperMode:
+  defaultMode: banner
+banner:
+  src:
+    desktop:
+      - /images/banner/desktop/1.webp
+      - /images/banner/desktop/2.webp
+      - /images/banner/desktop/3.webp
+      - /images/banner/desktop/4.webp
+      - /images/banner/desktop/5.webp
+      - /images/banner/desktop/6.webp
+    mobile:
+      - /images/banner/mobile/1.webp
+      - /images/banner/mobile/2.webp
+      - /images/banner/mobile/3.webp
+      - /images/banner/mobile/4.webp
+      - /images/banner/mobile/5.webp
+      - /images/banner/mobile/6.webp
+  position: center
+  homeText:
+    enable: true
+    title: 星月澪の幻想笔记
+    subtitle:
+      - 特別なことはないけど、君がいると十分です
+      - 今でもあなたは私の光
+      - 君ってさ、知らないうちに私の毎日になってたよ
+      - 君と話すと、なんか毎日がちょっと楽しくなるんだ
+      - 今日はなんでもない日。でも、ちょっとだけいい日
+    typewriter:
+      enable: true
+      speed: 100
+      deleteSpeed: 50
+      pauseTime: 2000
+      loop: true
+  carousel:
+    enable: true
+    interval: 3000
+  waves:
+    enable: true
+favicon:
+  - src: /images/favicon/favicon.ico
+ogImage: /images/branding/avatar.png
+

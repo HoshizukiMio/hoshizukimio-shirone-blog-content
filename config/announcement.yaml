@@ -1,0 +1,10 @@
+# Personal overrides; unspecified options follow Shirone defaults.
+title: ""
+content: 欢迎来到星月澪の幻想笔记。这里记录技术、日常与灵感，新的故事即将开始。
+closable: true
+link:
+  enable: true
+  text: 关于我
+  url: /about/
+  external: false
+

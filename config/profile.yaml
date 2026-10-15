@@ -1,0 +1,18 @@
+# Personal overrides; unspecified options follow Shirone defaults.
+avatar: /images/branding/avatar.png
+name: 星月澪
+bio: 世界は大きい、君は行かなければならない
+links:
+  - name: Bilibili
+    icon: fa7-brands:bilibili
+    url: https://space.bilibili.com/348794946
+  - name: Mio's Gitea
+    icon: simple-icons:gitea
+    url: https://git.hoshizukimio.com/HoshizukiMio
+  - name: GitHub
+    icon: fa7-brands:github
+    url: https://github.com/HoshizukiMio
+  - name: Telegram
+    icon: fa7-brands:telegram
+    url: https://t.me/hoshizukimio_desu
+

@@ -1,0 +1,19 @@
+# Personal overrides; unspecified options follow Shirone defaults.
+source:
+  kind: snapshot
+  provider: bilibili
+  fetchOnDev: false
+providers:
+  bilibili:
+    enable: true
+    vmid: "348794946"
+    cover:
+      mode: remote
+      useWebp: true
+snapshot:
+  directory: src/data/anime-snapshots
+  keepLastValid: true
+fallback:
+  kind: empty
+
+

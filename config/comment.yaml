@@ -1,0 +1,9 @@
+# Personal overrides; unspecified options follow Shirone defaults.
+enable: true
+provider: twikoo
+lazy: true
+twikoo:
+  envId: https://twikoo.hoshizukimio.com
+  lang: zh-CN
+  placeholder: 留下你的想法吧……
+

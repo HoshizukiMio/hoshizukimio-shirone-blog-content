@@ -7,6 +7,7 @@ import type { DeviceItem } from "@/types/devicesConfig";
 export const devicesData: DeviceItem[] = [
 	{
 		id: "iphone-17-pro-max",
+		image: "/images/devices/iphone-17-pro-max.jpg",
 		name: "iPhone 17 Pro Max",
 		brand: "Apple",
 		category: "phone",
@@ -17,6 +18,7 @@ export const devicesData: DeviceItem[] = [
 	},
 	{
 		id: "macbook-air-m5",
+		image: "/images/devices/macbook-air-m5.jpg",
 		name: "MacBook Air (M5)",
 		brand: "Apple",
 		category: "computer",
@@ -27,6 +29,7 @@ export const devicesData: DeviceItem[] = [
 	},
 	{
 		id: "oneplus-ace-5",
+		image: "/images/devices/oneplus-ace-5.png",
 		name: "一加 Ace 5",
 		brand: "OnePlus",
 		category: "phone",
@@ -37,6 +40,7 @@ export const devicesData: DeviceItem[] = [
 	},
 	{
 		id: "iphone-xs-max",
+		image: "/images/devices/iphone-xs-max.jpg",
 		name: "iPhone XS Max",
 		brand: "Apple",
 		category: "phone",
@@ -47,6 +51,7 @@ export const devicesData: DeviceItem[] = [
 	},
 	{
 		id: "ipad-pro-m5-11",
+		image: "/images/devices/ipad-pro-m5-11.png",
 		name: "iPad Pro 11 英寸 (M5)",
 		brand: "Apple",
 		category: "tablet",
@@ -57,6 +62,7 @@ export const devicesData: DeviceItem[] = [
 	},
 	{
 		id: "airpods-pro-3",
+		image: "/images/devices/airpods-pro-3.png",
 		name: "AirPods Pro 3",
 		brand: "Apple",
 		category: "audio",

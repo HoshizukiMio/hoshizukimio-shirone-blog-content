@@ -1,0 +1,14 @@
+# 设备分类；具体设备条目维护在 data/devices.ts。
+categories:
+  - key: phone
+    label: 手机
+    icon: material-symbols:phone-iphone
+  - key: computer
+    label: 电脑
+    icon: material-symbols:laptop-mac
+  - key: tablet
+    label: 平板
+    icon: material-symbols:tablet-mac
+  - key: audio
+    label: 耳机
+    icon: material-symbols:headphones-rounded
